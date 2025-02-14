@@ -1,0 +1,96 @@
+.chatList{
+    flex:1;
+    overflow-y: scroll ;
+    .search{
+   display: flex;
+   align-items: center;
+   gap: 5px;
+   padding: 10px;
+  }
+  .searchBar{
+    flex: 1;
+    background-color:  rgba(65, 88, 137, 0.548);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 4px;
+    
+
+    input{
+        background-color: transparent;
+        border: none;
+        outline: none;
+        color: white;
+        flex: 1;
+    }
+    input::placeholder{
+        color: white;
+    }
+    img{
+        width: 20px;
+        height: 20px;
+    }
+    
+  }
+
+  .item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #dddddd35;
+    padding: 5px;
+    margin-bottom: 10px;
+    img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+  }
+
+  .texts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    span{
+        font-weight: 500;
+    }
+    p{
+        font-size: 14px;
+        font-weight: 300;
+    }
+  }
+
+}
+.add{
+    width: 36px;
+    height: 36px;
+    background-color:  rgba(65, 88, 137, 0.548);
+    padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+
+}
+.t1{
+  animation-name: notifi ;
+  animation-duration: 1.2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 2;
+}
+.t2{
+  background-color: transparent;
+}
+@keyframes notifi {
+  0% {
+    background-color: transparent;
+  }
+  50%{
+   background-color: #5183fe;
+  }
+  100% {
+    background-color: transparent;
+  }
+  
+}
