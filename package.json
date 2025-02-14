@@ -1,16 +1,16 @@
 {
-  "homepage": "http://naveen924611.github.io/Chatting-app",
+  "homepage": "http://naveen924611.github.io/chatting-app/",
   "name": "realtime-chat",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy":" npm rnu build",
-    "deploy":"gh-pages -d build",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": " npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "emoji-picker-react": "^4.12.0",
