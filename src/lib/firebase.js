@@ -21,7 +21,7 @@ import { getStorage} from "firebase/storage"
   //   measurementId: "G-6R04TZX1FH"
   // };
   const firebaseConfig = {
-    apiKey: "AIzaSyBXNTZQTggvBAAWUNLFSVBAfdFNekfrzGo",
+    apiKey: "",
     authDomain: "reactchat-53a05.firebaseapp.com",
     projectId: "reactchat-53a05",
     storageBucket: "reactchat-53a05.firebasestorage.app",
